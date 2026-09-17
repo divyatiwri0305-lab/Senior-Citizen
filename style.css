@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1800px;
+    margin: auto;
+}
+.logo{
+    width: 7%;
+    height: 7%;
+}
+.card-img-top{
+    width: 100%;
+    height: 390px;
+    object-fit: contain;
+}
+/* .admin_image{
+    width: 100px;
+    object-fit: contain;
+} */
+.cart_img{
+    width: 50px;
+    height: 50px;
+}
+.profile_img{
+    width: 100%;
+    height: 100%;
+}
+/* .nav-item{
+    color: aliceblue;
+    
+} */
+
+     .navvbar{
+          background:#969696; 
+      }   
+/*dropdown      */
+      .row{
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          background: #969696;
+      }      
+      .too{
+          flex-basis: 85%;
+          min-width: 850px;
+      }
+      .tooo{
+          flex-basis: 15%;
+          min-width: 150px;
+      }
+      
+      
+.navbars{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+      .navbars a{
+          float: left;
+          text-align: center;
+          text-decoration: none;
+          color: #fff;
+          padding: 10px 12px;
+      } 
+      .dropdowns{
+          overflow: hidden;
+          float: left;
+      }
+      .dropbtns{
+          border: none;
+          outline: none;
+          background: #969696;
+          color: #fff;
+          padding: 14px 16px;
+          margin: 0;
+          font-size: 21px;
+      }
+      .dropbtns:hover{
+/*          background: rgb(4, 128, 141);*/
+          color: #c1c1c1;
+      }
+      .navbars a:hover,.dropdowns:hover{
+/*          background: #f24343;*/
+      }
+      .dropcontents{
+          z-index: 1;
+          position: absolute;
+          background: rgb(4, 128, 141);
+          min-width: 250px;
+          display: none;
+          right: 50px;
+      }
+      .dropcontents a{
+          display: block;
+          float: none;
+          text-align: center;
+          text-decoration: none;
+          color: #fff;
+/*          margin-left: 20px;*/
+      }
+      .dropcontents a:hover{
+          color: #8f8f8f;
+          background: #969696;
+      }
+      .dropdowns:hover .dropcontents{
+          display: block;
+      }
+
+
+      /*FOOTER*/
+.ro{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.coll-4{
+    flex-basis: 20%;
+}
+.logoo img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+	margin-left: 30px;
+}
+.xyz{
+    background-image: linear-gradient(rgba(0,0,0,.1),#000),url(imgss/levi.jpg);
+    background-size: cover;
+	background-position: center;
+    height: 400px;
+	margin-top: 10px;
+}
+.xyz h2{
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: aqua;
+}
+.xyz h3{
+    border-bottom: 5px solid #014455;
+    margin-bottom: 30px;
+	margin-left: 15px;
+    width: 80px;
+}
+.xyz a{
+    display: block;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    padding: 4px;
+    transition: 1S;
+    font-size: 19px;
+}
+.xyz a:hover{
+    color: #031332;
+}
+.xyz h4{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 10px;
+    color: #fff;
+    padding: 3px;
+}
+.xyz h5{
+    margin: 7px;   
+    font-size: 12px;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-left: 20px;
+    padding: 2px;
+    color: #fff;
+}
+.ttt{
+    padding: 3px;
+}
+.coll-4 a{
+    width: 180px;
+}
+.links img{
+	border-radius: 100px;
+	margin-right: 4PX;
+	margin-top: 30px;
+}
+
